@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  color: #654;
+  background: #22262b;
+  text-align: center;
+  font-family: "Ubuntu"; }
+
+.header {
+  padding: 4% 8%;
+  text-align: center; }
+  .header img {
+    max-width: 100%;
+    display: block;
+    margin: auto; }
+
+.samples {
+  text-align: center; }
+  .samples img {
+    border-radius: 4px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(0.96);
+    transition: transform 150ms ease-in-out; }
+    .samples img:hover {
+      transform: scale(1); }
+    .samples img:active {
+      opacity: 0.8; }
+
+.links {
+  padding-top: 1%; }
+  .links a {
+    opacity: 0.8;
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #6CB6F4;
+    color: #ffffff;
+    border-radius: 4px;
+    text-decoration: none; }
+    .links a.link-zip {
+      background: #69AD69; }
+    .links a:hover {
+      opacity: 0.9; }
+    .links a:active {
+      opacity: 1; }
+
+.footer {
+  padding-top: 10%;
+  font-family: "Maven Pro", sans-serif; }
+  .footer a {
+    color: #4B5D74;
+    opacity: 0.9; }
+  .footer a:hover {
+    opacity: 1; }
+  .footer a:active {
+    opacity: 0.7; }
+
+/*# sourceMappingURL=style.css.map */
